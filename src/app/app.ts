@@ -14,7 +14,7 @@ export class App implements OnInit {
   todos = signal<Array<{ _id?: string; title: string; createdAt?: string }>>([]);
   newTodoTitle = signal('');
 
-  private readonly apiUrl = 'http://localhost:5000/api/todos';
+  private readonly apiUrl = 'https://trybackend-production.up.railway.app/api/todos/';
 
   constructor(private http: HttpClient) {}
 

@@ -2,7 +2,15 @@
 
 This is the **Angular frontend** for a simple MEAN stack to-do application. It provides a minimal UI to add new todos and view the list of existing todos.
 
-The app is built with **Angular 21** and **Tailwind CSS v4** (via the new `@tailwindcss/postcss` setup).
+The app is built with **Angular** and **Tailwind CSS v4** (via the new `@tailwindcss/postcss` setup).
+
+---
+
+## Live Demo
+
+A live demo of the site is available at: [https://to-do-app-nti-frontend.vercel.app/](https://to-do-app-nti-frontend.vercel.app/)
+
+---
 
 ## Tech Stack
 
@@ -10,6 +18,8 @@ The app is built with **Angular 21** and **Tailwind CSS v4** (via the new `@tail
 - **Tailwind CSS v4** - Utility-first styling.
 - **TypeScript** - Strongly typed frontend logic.
 - **RxJS** - Reactive programming utilities.
+
+---
 
 ## Features
 
@@ -19,6 +29,8 @@ The app is built with **Angular 21** and **Tailwind CSS v4** (via the new `@tail
   - `GET http://localhost:5000/api/todos`
   - `POST http://localhost:5000/api/todos`
 - Basic, clean UI styled with Tailwind.
+
+---
 
 ## Installation
 
@@ -51,6 +63,8 @@ To run the frontend locally:
    ```
 
 > Note: Make sure the backend API is running on `http://localhost:5000` so the todo list can load and new todos can be saved.
+
+---
 
 ## Author
 
